@@ -8,15 +8,7 @@ export const products = [
     { id: "7", name: "Roadster Shirt", price: 1299 },
     { id: "8", name: "H&M Sweater", price: 1599 },
     { id: "9", name: "Woodland Boots", price: 3499 },
-    { id: "10", name: "UCB Jacket", price: 2899 },
-    { id: "11", name: "Nike Cap", price: 499 },
-    { id: "12", name: "Adidas Trackpants", price: 1499 },
-    { id: "13", name: "Puma Sneakers", price: 2999 },
-    { id: "14", name: "Zara Blazer", price: 3999 },
-    { id: "15", name: "Levis Shirt", price: 1899 },
-    { id: "16", name: "HRX Gym Bag", price: 999 },
-    { id: "17", name: "H&M Trousers", price: 1699 },
-    { id: "18", name: "Roadster Jacket", price: 2499 },
+
     { id: "19", name: "Woodland Sandals", price: 1399 },
     { id: "20", name: "UCB Hoodie", price: 2299 },
 ];

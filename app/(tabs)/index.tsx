@@ -7,9 +7,8 @@ export default function HomeScreen() {
     <View style={styles.container}>
 
       <Button
-        title="Go to Recently Viewed"
-        onPress={() => router.push("/recently-viewed") }
-        
+        title="GO TO RECENTLY VIEWED"
+        onPress={() => router.push("/recently-viewed")}
       />
 
       <FlatList
@@ -30,7 +29,6 @@ export default function HomeScreen() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
