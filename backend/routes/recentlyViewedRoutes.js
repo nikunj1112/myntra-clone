@@ -23,6 +23,7 @@ router.get("/:userId", async (req, res) => {
 // POST Recently Viewed
 // ==========================
 router.post("/", async (req, res) => {
+  
   try {
     console.log("POST route hit");
     console.log("Request Body:", req.body);
@@ -35,6 +36,7 @@ router.post("/", async (req, res) => {
 
     const updated = await RecentlyViewed.findOneAndUpdate(
       { userId },
+      
       { recentlyViewed },
       { upsert: true, new: true }
     );
@@ -45,6 +47,7 @@ router.post("/", async (req, res) => {
     console.log("POST Error:", err);
     res.status(500).json({ error: err.message });
   }
+  
 });
 
 module.exports = router;
