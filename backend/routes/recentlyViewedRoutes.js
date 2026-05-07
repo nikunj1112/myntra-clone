@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const RecentlyViewed = require("../models/RecentlyViewed");
 
+
+
 // ==========================
 // GET Recently Viewed
 // ==========================
